@@ -1,0 +1,73 @@
+.services {
+  width: 100%;
+  overflow: hidden;
+}
+
+.our-services h3 {
+  color: #246b3c;
+  font-weight: 600;
+}
+
+.card .btn {
+  color: #246b3c;
+  align-self: flex-end;
+}
+
+.cards-talk {
+  background-image: url(./assets/images/Rectangle\ 45922.png);
+  background-size: cover;
+}
+
+.cards-talk .flex-card .card-talk-1 {
+  width: 330px;
+  padding: 20px 20px 10px 40px;
+  border-radius: 20px;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 405px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cards-talk .flex-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards-talk .flex-card .card-talk-2 {
+  margin-top: 150px;
+  width: 330px;
+  padding: 20px 20px 10px 40px;
+  border-radius: 20px;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 405px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cards-talk .flex-card .card-talk-1 {
+  margin-top: 250px;
+}
+
+.card-talk-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.card-talk-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.card-talk-1 h4 {
+  font-weight: 600;
+}
+
+.card-talk-1 p {
+  font-size: 0.9rem;
+}
