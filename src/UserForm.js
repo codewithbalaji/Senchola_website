@@ -123,7 +123,7 @@ const UserForm = () => {
           </Row>
           <Row className="mb-5">
             <Form.Group as={Col} md="6" controlId="validationCustom04">
-              <Form.Label>Upload KYC Documents</Form.Label>
+              <Form.Label>Upload Resume</Form.Label>
               <Form.Control type="file" multiple />
             </Form.Group>
           </Row>

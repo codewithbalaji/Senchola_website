@@ -145,10 +145,11 @@ const Services = () => {
                 src={img7}
                 className="img-fluid rounded"
                 alt="..."
-                style={{ height: '300px', width: '100%', objectFit: 'cover' }}
+                style={{ height: '400px', width: '100%', objectFit: 'cover' }}
               />
             </div>
-            <div className="col-md-7">
+
+            <div className="col-md-7" style={{ paddingLeft: '150px' }}>
               {' '}
               {/* Decrease the column width */}
               <div className="card-body">
@@ -159,15 +160,18 @@ const Services = () => {
                   >
                     WHAT WE DO
                   </h6>
-                  <h5 className="card-title">We Help Companies</h5>
-                  <h5 className="card-title">Scale with vetted,</h5>
-                  <h5 className="card-title">Expert Talent &</h5>
-                  <h5 className="card-title">Resources</h5>
+                  <h2 className="card-title">We Help Companies</h2>
+                  <h2 className="card-title">Scale with vetted,</h2>
+                  <h2 className="card-title">Expert Talent &</h2>
+                  <h2 className="card-title">Resources</h2>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Impedit deleniti consequuntur quibusdam mollitia porro
-                    itaque eaque consectetur? Ad dolor quos illo blanditiis ut
-                    non.
+                    Lorem ipsum dolor sit amet consectetur semolo to
+                    <br />
+                    adipisicing elit.Impedit deleniti consequuntur redi
+                    <br />
+                    quibusdam mollitia porroitaque eaque conseturts
+                    <br />
+                    Ad dolor quos illo blanditiis ut non.
                   </p>
                   <p className="card-text">
                     <Button
