@@ -149,11 +149,11 @@ const Services = () => {
               />
             </div>
 
-            <div className="col-md-7" style={{ paddingLeft: '150px' }}>
+            <div className="col-md-7 space-left">
               {' '}
               {/* Decrease the column width */}
               <div className="card-body">
-                <div className="container" style={{ textAlign: 'justify' }}>
+                <div style={{ textAlign: 'justify' }}>
                   <h6
                     className="card-title"
                     style={{ color: '#246b3c', fontWeight: 'bold' }}
@@ -199,6 +199,66 @@ const Services = () => {
       <div className="talk-section">
         <div>
           <div className="cards-talk">
+            <div className="container">
+              <div className="row card-hide">
+                {/* Card 1 */}
+                <div className="col-md-4">
+                  <div className="card mb-4">
+                    <img src={card1} alt="Card 1" />
+                    <div className="card-body">
+                      <h5 className="card-title text-capitalize">
+                        Talk with Our Specialists
+                      </h5>
+                      <p className="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto totam nobis nulla facere ipsum adipisci
+                        voluptatibus, error veritatis atque consectetur ab earum
+                        pariatur. Sint laudantium maiores, placeat nulla
+                        assumenda magni. Expedita, tempore?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 2 */}
+                <div className="col-md-4">
+                  <div className="card mb-4">
+                    <img src={card2} alt="Card 2" />
+                    <div className="card-body">
+                      <h5 className="card-title text-capitalize">
+                        Talk with Our Specialists
+                      </h5>
+                      <p className="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto totam nobis nulla facere ipsum adipisci
+                        voluptatibus, error veritatis atque consectetur ab earum
+                        pariatur. Sint laudantium maiores, placeat nulla
+                        assumenda magni. Expedita, tempore?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 3 */}
+                <div className="col-md-4">
+                  <div className="card mb-4">
+                    <img src={card6} alt="Card 3" />
+                    <div className="card-body">
+                      <h5 className="card-title text-capitalize">
+                        Talk with Our Specialists
+                      </h5>
+                      <p className="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto totam nobis nulla facere ipsum adipisci
+                        voluptatibus, error veritatis atque consectetur ab earum
+                        pariatur. Sint laudantium maiores, placeat nulla
+                        assumenda magni. Expedita, tempore?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="flex-card">
               {/* Card 1 */}
               <div className="medium">
@@ -220,8 +280,8 @@ const Services = () => {
               </div>
 
               {/* Card 2 */}
-              <div className="card-talk-2 medium">
-                <div className="">
+              <div className="">
+                <div className="card-center">
                   <img src={card2} className="p-1 me-3" alt="" />
                   <div className="pt-4">
                     <h4 className="text-capitalize">

@@ -33,7 +33,7 @@
   justify-content: space-evenly;
 }
 
-.cards-talk .flex-card .card-talk-2 {
+.card-center {
   margin-top: 150px;
   width: 330px;
   padding: 20px 20px 10px 40px;
@@ -42,6 +42,11 @@
   background-color: rgba(255, 255, 255, 0.5);
   margin-bottom: 405px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(5px);
 }
 
 .cards-talk .flex-card .card-talk-1 {
@@ -56,18 +61,41 @@
   backdrop-filter: blur(5px);
 }
 
-.card-talk-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  backdrop-filter: blur(5px);
-}
-
 .card-talk-1 h4 {
   font-weight: 600;
 }
 
 .card-talk-1 p {
   font-size: 0.9rem;
+}
+
+.space-left {
+  padding-left: 150px;
+}
+
+@media (max-width: 768px) {
+  .space-left {
+    padding-left: 20px; /* 20px padding for mobile devices */
+  }
+}
+
+/* Initially hide the cards */
+.talk-section .card {
+  display: none;
+}
+
+/* Show the cards when the screen width is 1037px or more */
+@media (max-width: 1037px) {
+  .talk-section .card {
+    display: block; /* Make the cards visible */
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    backdrop-filter: blur(5px);
+  }
+}
+
+@media (max-width: 1037px) {
+  .cards-talk .flex-card {
+    display: none; /* Make the cards visible */
+  }
 }
